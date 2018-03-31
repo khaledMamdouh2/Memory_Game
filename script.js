@@ -1,4 +1,4 @@
-var images = new Array("girl.png","mario.png","Mickey-Mouse.png","minions.png","picatcho.png","Spongebob.png");
+var images = new Array("images/girl.png","images/mario.png","images/Mickey-Mouse.png","images/minions.png","images/picatcho.png","images/Spongebob.png");
 			var used,gameOn,first_clicked,previous_pic,solved,interval,counter;
 			var hiddenPics = new Array(12);
 			
@@ -36,7 +36,7 @@ var images = new Array("girl.png","mario.png","Mickey-Mouse.png","minions.png","
 				document.getElementById("resultTime").innerHTML = counter+" Seconds";
 				$("#resultContainer").fadeIn(500);
 				for(i=0; i<12; i++)
-					document.images[i].src="qMark.png";
+					document.images[i].src="images/qMark.png";
 				gameOn = false;
 				
 			}
@@ -55,8 +55,8 @@ var images = new Array("girl.png","mario.png","Mickey-Mouse.png","minions.png","
 						if(hiddenPics[imageIndex] != hiddenPics[previous_pic]){
 							gameOn=false;
 							setTimeout(function(){
-								document.images[imageIndex].src = "qMark.png";
-								document.images[previous_pic].src = "qMark.png";
+								document.images[imageIndex].src = "images/qMark.png";
+								document.images[previous_pic].src = "images/qMark.png";
 							},500);
 							gameOn=true;
 						}
