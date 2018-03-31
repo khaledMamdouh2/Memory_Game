@@ -1,0 +1,43 @@
+<!DOCTYPE HTML public "-//w3c//dtd html 4.01//en" "http://www.w3.org/tr/html4/strict.dtd">
+<html>
+	<head>
+		<title>Memory Game</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="script.js" ></script>
+		
+	</head>
+	<body>
+		<h1 align="center">Memory Game</h1>
+		<h5 align="center">Finish the game as fast as you can</h5>
+		 
+		<div id="container">
+			<div class="row">
+				<img src="qMark.png" onclick="replaceImage(0)">
+				<img src="qMark.png" onclick="replaceImage(1)">
+				<img src="qMark.png" onclick="replaceImage(2)">
+				<img src="qMark.png" onclick="replaceImage(3)">
+			</div>
+			<div class="row">
+				<img src="qMark.png" onclick="replaceImage(4)">
+				<img src="qMark.png" onclick="replaceImage(5)">
+				<img src="qMark.png" onclick="replaceImage(6)">
+				<img src="qMark.png" onclick="replaceImage(7)">
+			</div>
+			<div class="row">
+				<img src="qMark.png" onclick="replaceImage(8)">
+				<img src="qMark.png" onclick="replaceImage(9)">
+				<img src="qMark.png" onclick="replaceImage(10)">
+				<img src="qMark.png" onclick="replaceImage(11)">
+			</div>
+			<input type="button" onclick="start_game()" value="start">
+		</div>
+		
+		<div id="resultContainer">
+			<h2 id="result">you finished the game at</h2>
+			<span id="resultTime"></span>
+			<div id="btnContainer"><button id="okBtn" onclick="hideModal()">Ok</button></div>
+		</div>
+		
+	</body>
+</html>

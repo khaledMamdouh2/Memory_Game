@@ -1,0 +1,63 @@
+			body{
+				background-color: #dbdbdb;
+			}
+			h1 {
+				color: #083887;
+				font-size: 50px;
+			}
+			h5{
+				color: #083887;
+				font-size: 30px;
+			}
+			#container{
+				margin-left: 35%;
+			}
+			img{
+				height: 100px;
+				width: 100px;
+			}
+			input[type="button"]{
+				height: 35px;
+				width: 100px;
+				font-size: 20px;
+				background-color: #4286f4 ;
+				color: white;
+				margin-left: 18%;
+				border-radius: 5px;
+				margin-top: 50px;
+			}
+			
+			#result{
+				color: white;
+				font-size: 20px;
+				margin-left: 20%;
+			}
+			#resultTime{
+				color: white;
+				font-size: 20px;
+				margin-left: 35%;
+			}
+			#resultContainer{
+				position: fixed;
+				width: 27%;
+				height: 150px;
+				z-index:99;
+				margin-top: -20%;
+				margin-left: 37%;
+				background-color: #c9023d;
+				display: none;
+				border: 2px solid #0d1a5e;
+				border-radius: 8px;
+			}
+			#btnContainer{
+				margin-left: 35%;
+				margin-top: 20px;
+			}
+			#okBtn{
+				width: 100px;
+				height: 40px;
+				font-size: 18px;
+				border-radius: 5px;
+				background-color: #083887;
+				color: white;
+			}
